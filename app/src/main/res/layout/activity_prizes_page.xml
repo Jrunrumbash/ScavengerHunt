@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    android:padding="20dp"
+    tools:context="com.example.ezsmuel.scavengerhunt.PrizesPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:paddingBottom="40dp"
+            android:text="@string/prizeInfo"
+            android:textAllCaps="false"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/prize1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="@string/prize1"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/prize2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="@string/prize2"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/prize3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="@string/prize3"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textSize="24sp" />
+    </LinearLayout>
+</LinearLayout>

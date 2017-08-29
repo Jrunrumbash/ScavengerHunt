@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back2"
+    android:padding="20dp"
+    tools:context="com.example.ezsmuel.scavengerhunt.GetStarted">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:paddingBottom="40dp"
+        android:text="@string/form"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/userNameEditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:hint="@string/userName"
+            android:inputType="text"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textSize="24sp"
+            android:textStyle="bold">
+
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+       <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="cursive"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/scroll"
+        android:fontFamily="cursive"
+        android:onClick="submitDetails"
+        android:text="@string/sumbit"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

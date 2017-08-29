@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back2"
+    android:padding="20dp"
+    tools:context="com.example.ezsmuel.scavengerhunt.NewStartPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:paddingBottom="30dp"
+            android:text="@string/newStartHeading"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/rulesButton2"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/b1"
+            android:fontFamily="cursive"
+            android:onClick="rulesButton"
+            android:text="@string/RulesButton"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/prizesButton2"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/b1"
+            android:fontFamily="cursive"
+            android:onClick="prizesButton"
+            android:text="@string/prizeButton"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/outputRes"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:fontFamily="cursive"
+            android:padding="10dp"
+            android:text="@string/currentItm2"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/scanItemButton"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/b1"
+            android:fontFamily="cursive"
+            android:onClick="scannerButton"
+            android:text="@string/scannerButton"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/itemsButton"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/b1"
+            android:fontFamily="cursive"
+            android:onClick="itemViewButton"
+            android:text="@string/itemsCollectionText"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/currentItem"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/b1"
+            android:fontFamily="cursive"
+            android:onClick="currentPage"
+            android:text="@string/techDayButton"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</LinearLayout>

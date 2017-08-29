@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="headingColor">#5C66AD</color>
+    <color name="timeText">#FF3300</color>
+    <color name="email">#FFFFFF</color>
+    <color name="listBack">#BA8738</color>
+    <color name="agree">#663300</color>
+</resources>

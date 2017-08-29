@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back2"
+    android:padding="20dp"
+    tools:context="com.example.ezsmuel.scavengerhunt.ItemCollections">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:paddingRight="60dp"
+            android:text="@string/scanAgain"
+            android:textAllCaps="false"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/scanItemButton"
+            android:layout_width="69dp"
+            android:layout_height="74dp"
+            android:onClick="scannerButton"
+            android:background="@drawable/scanner" />
+    </LinearLayout>
+<Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/btnDelete"
+    android:visibility="invisible"
+    android:onClick="delete"
+    android:text="Clear List"/>
+
+    <Button
+        android:id="@+id/dbCount"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/b1"
+        android:fontFamily="cursive"
+        android:text="@string/progressButton"
+        android:textAllCaps="false"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/found"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:paddingTop="20dp"
+        android:text="@string/itemListText"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        tools:context=".ListActivity">
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:fontFamily="cursive"
+            android:textAllCaps="false"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:background="@color/listBack" />
+    </LinearLayout>
+</LinearLayout>
